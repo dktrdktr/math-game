@@ -1,7 +1,3 @@
-# - Player
-#   @name
-#   @lives
-
 class Player
   attr_accessor :name, :lives
 
@@ -13,5 +9,5 @@ class Player
   def take_life
     @lives -= 1
   end
-
+  
 end

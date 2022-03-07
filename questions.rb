@@ -13,9 +13,6 @@ class Questions
   end
 
   def check_answer(user_answer)
-    if (user_answer == @answer) 
-      return true 
-    end
-    false
+    user_answer == @answer
   end
 end
